@@ -1,4 +1,4 @@
-package marcnarz.decorator;
+package marcnarz.design.pattern.decorator;
 
 import lombok.AllArgsConstructor;
 

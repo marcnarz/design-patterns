@@ -1,6 +1,6 @@
 package marcnarz.design.pattern.visitor;
 
-public class Discounter implements Visitor {
+public class SmallDiscounter implements Visitor {
 
     @Override
     public void visit(Carrot carrot) {

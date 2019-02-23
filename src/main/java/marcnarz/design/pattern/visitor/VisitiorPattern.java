@@ -12,7 +12,14 @@ public class VisitiorPattern {
         bucket.add(onion);
         bucket.add(tomato);
 
-        Discounter discounter = new Discounter();
-        bucket.calculateDiscount(discounter);
+        System.out.println("-----SMALL-DISCOUNTER-----");
+        SmallDiscounter smallDiscounter = new SmallDiscounter();
+        bucket.calculateDiscount(smallDiscounter);
+
+        System.out.println();
+
+        System.out.println("-----BIG-DISCOUNTER-----");
+        BigDiscounter bigDiscounter = new BigDiscounter();
+        bucket.calculateDiscount(bigDiscounter);
     }
 }

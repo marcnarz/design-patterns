@@ -1,4 +1,4 @@
-package marcnarz.design.pattern.visitor;
+package marcnarz.design.pattern.behavioral.visitor;
 
 public class SmallDiscounter implements Visitor {
 

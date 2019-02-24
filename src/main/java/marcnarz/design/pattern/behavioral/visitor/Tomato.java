@@ -1,6 +1,6 @@
-package marcnarz.design.pattern.visitor;
+package marcnarz.design.pattern.behavioral.visitor;
 
-public class Carrot implements Product {
+public class Tomato implements Product {
 
     @Override
     public void calculateDiscount(Visitor visitor) {

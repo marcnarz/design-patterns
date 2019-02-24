@@ -1,4 +1,4 @@
-package marcnarz.design.pattern.decorator;
+package marcnarz.design.pattern.structural.decorator;
 
 public class TransactionalUpdater extends Decorator {
 
